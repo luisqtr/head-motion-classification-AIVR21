@@ -1,3 +1,24 @@
+# Exclude datasets
+dataset/UCR/*
+dataset/IMT/dataset.npy
+dataset/IMT/dataset.tar.gz
+dataset/Tsinghua/dataset.npy
+dataset/Tsinghua/vr-dataset.zip
+dataset/DSV1/*
+# Keep datasets' readme
+!dataset/UCR/README.md
+
+**/datasets_feature_based/*
+
+# Temporary calculation
+temp/
+
+#Snakemake
+.snakemake/
+
+#VS Code
+.vscode/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

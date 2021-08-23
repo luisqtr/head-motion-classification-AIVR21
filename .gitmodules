@@ -1,0 +1,3 @@
+[submodule "kinemats"]
+	path = kinemats
+	url = ssh://git@github.com:luiseduve/kinemats.git
