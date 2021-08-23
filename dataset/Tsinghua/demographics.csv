@@ -1,0 +1,49 @@
+No.,Gender,Age,Occupation,Educational Background,VR Experience,VR Device,Live VR streaming experience
+1,Female,20~25,Student,Master,Used before,High-end VR device,Heard of before
+2,Male,20~25,Student,Master,Used before,High-end VR device,Never heard of before
+3,Male,20~25,Student,Master,Used before,High-end VR device,Heard of before
+4,Female,20~25,Student,Master,Used before,High-end VR device,Heard of before
+5,Male,20~25,Student,Master,Heard of before,,Heard of before
+6,Female,20~25,Student,Master,Used before,High-end VR device,Heard of before
+7,Male,26~30,Student,Master,Heard of before,,Never heard of before
+8,Female,20~25,Student,Master,Heard of before,,Heard of before
+9,Female,20~25,Student,Master,Used before,High-end VR device,Never heard of before
+10,Male,20~25,Student,Master,Heard of before,,Never heard of before
+11,Male,26~30,Student,Phd,Used before,High-end VR device,Heard of before
+12,Female,20~25,Student,Master,Used before,High-end VR device,Never heard of before
+13,Male,20~25,Student,Master,Used before,High-end VR device,Heard of before
+14,Male,26~30,Student,Phd,Heard of before,,Never heard of before
+15,Male,20~25,Student,Master,Used before,Smartphone VR headset,Heard of before
+16,Female,20~25,Student,Master,Used before,High-end VR device,Never heard of before
+17,Male,20~25,Student,Master,Used before,High-end VR device,Used before
+18,Male,20~25,Student,Master,Used before,Standalone VR headset,Never heard of before
+19,Female,20~25,Student,Master,Heard of before,,Used before
+20,Female,20~25,Student,Master,Used before,High-end VR device,Never heard of before
+21,Male,20~25,Student,Master,Heard of before,,Never heard of before
+22,Male,20~25,Student,Master,Used before,Standalone VR headset,Never heard of before
+23,Male,20~25,Student,Master,Used before,High-end VR device,Heard of before
+24,Male,20~25,Student,Master,Used frequently,Smartphone VR headset,Heard of before
+25,Female,20~25,Student,Master,Heard of before,,Heard of before
+26,Female,20~25,Student,Master,Used before,Smartphone VR headset,Heard of before
+27,Female,20~25,Student,Master,Used before,High-end VR device,Heard of before
+28,Male,20~25,Student,Master,Used before,Smartphone VR headset,Never heard of before
+29,Male,20~25,Student,Master,Heard of before,,Heard of before
+30,Male,20~25,Student,Master,Heard of before,,Never heard of before
+31,Female,20~25,Student,Master,Heard of before,,Heard of before
+32,Female,26~30,Student,Master,Used before,Smartphone VR headset,Heard of before
+33,Female,20~25,Student,Master,Used before,Standalone VR headset,Never heard of before
+34,Male,20~25,Student,Master,Heard of before,,Never heard of before
+35,Female,20~25,Student,Master,Used before,Smartphone VR headset,Heard of before
+36,Male,~20,Student,Undergraduate,Heard of before,,Never heard of before
+37,Female,~20,Student,Undergraduate,Never heard of before,,Never heard of before
+38,Female,~20,Student,Undergraduate,Used before,Standalone VR headset,Never heard of before
+39,Female,~20,Student,Undergraduate,Heard of before,,Never heard of before
+40,Female,~20,Student,Undergraduate,Heard of before,,Never heard of before
+41,Female,~20,Student,Undergraduate,Heard of before,,Never heard of before
+42,Male,~20,Student,Undergraduate,Heard of before,,Heard of before
+43,Male,~20,Student,Undergraduate,Used frequently,High-end VR device,Heard of before
+44,Male,~20,Student,Undergraduate,Heard of before,,Heard of before
+45,Male,~20,Student,Undergraduate,Heard of before,,Heard of before
+46,Female,26~30,Engineer,Master,Heard of before,,Never heard of before
+47,Female,26~30,Engineer,Master,Heard of before,,Never heard of before
+48,Female,26~30,Engineer,Master,Heard of before,,Never heard of before

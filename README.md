@@ -1,13 +1,10 @@
 # Summary
 
-**Title:** *Effects of data representations of 3D rotation for time-series classification of 360 videos with virtual reality headsets*
+> **Paper:** *Effective Classification of Head Motion Trajectories in Virtual Reality using Time-Series Methods*
+> 
+> **Venue:** *The 4th IEEE International Conference on Artificial Intelligence and Virtual Reality (IEEE AIVR 2021)*
 
-This project includes the algorithms to conduct time-series analysis of head movements based on publicly-available repositories.
-
-The analysis comprises:
-- Converting Quaternion(4D) representations into Euler(3D), Spherical(2D) and Yaw(1D)
-- Apply KNN classifiers with multiple distance metrics: Euclidean, Specific Euclidean, Dynamic Time Warping (DTW)
-- Apply state-of-the-art time-series classifiers: STSF and ROCKET.
+In this paper, we present a method to classify head motion trajectories using recent time-series methods. The analysis of motion data with machine learning is a common technique to solve problems in Virtual Reality (VR), such as adaptive rendering or user behavioral modeling. Motion data are initially collected as time series, but they are usually transformed into tabular features compatible with traditional feature-based classifiers. Data mining research has proposed several time-series classifiers that can directly exploit the temporal relationship of the data without requiring manual feature extraction. Nevertheless, the effectiveness of these time-series methods still requires validation on real-life problem domains. Therefore, this paper demonstrates how a pipeline that combines a recent time-series classifier with two rotation space representations (quaternion and Euler) can successfully analyze head motion in VR applications. We test the proposed method on two public datasets containing head rotations, resulting in higher prediction accuracy than other feature-based and time-series classifiers. We also discuss some limitations, guidelines for future work, and concluding remarks.
 
 ## Datasets
 
@@ -21,7 +18,7 @@ This project uses publicly available datasets with head rotations, each  details
 # Setup
 
 ```console
->> git clone https://github.com/luiseduve/user_identif_hmd_rotation.git
+>> git clone https://github.com/luiseduve/head-motion-classification-AIVR21.git
 
 Create and activate python venv
 >> python -m venv env
@@ -34,23 +31,17 @@ Install required libraries
 Initialize git submodules
 >> git submodule update --init
 
-If the previous does not pull the repository:
->> git submodule add https://github.com/luiseduve/kinemats.git]
+Note: If the previous command does not pull the repository:
+>> git submodule add https://github.com/luiseduve/kinemats.git
 ```
-
-## Compatibility
-
-- TSC like MrSEQL and TDE are implemented with `sktime==0.6.1`, which uses `pandas==1.2.4` and in turn requires `Python>=3.7.1`.
-- 
-
 
 # Replicate results
 
-1. Change the variable `experiment_config.DATASET_MAIN` to one of these options depending on the dataset to process:
-    - `Datasets.IMT`
-    - `Datasets.Tsinghua`
+1. Change the variable `experiment_config.DATASET_MAIN` to the value `DATASETS_LIST[0]` to process `Datasets.IMT`.
 2. Execute the jupyter notebooks in order.
     - `01_....ipynb`: Preprocess the datasets
     - `02_....ipynb`: Executes feature-based classifiers
     - `03_....ipynb`: Runs state-of-the-art time-series classifiers
-    - `99_results_compilation.ipynb`: Compiles all previous results in a single table and generates plots
+3. Change the variable `experiment_config.DATASET_MAIN` to the value `DATASETS_LIST[1]` to process `Datasets.Tsinghua`.
+4. Run again all jupyter notebooks from **step 2**.
+5. Execute `99_results_compilation.ipynb`to generate a single table and corresponding plots.
